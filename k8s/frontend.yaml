@@ -17,7 +17,7 @@ spec:
           # 여러분의 frontend image 주소를 입력해주세요.
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_384c8a9eea75
           # command: ["/bin/sleep", "5000000"]
-		  command: ["pnpm", "dev", "--host"]
+          command: ["pnpm", "dev", "--host"]
 ---
 apiVersion: v1
 kind: Service
