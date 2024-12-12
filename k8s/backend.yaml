@@ -20,14 +20,10 @@ spec:
             - name: TZ
               value: Asia/Seoul
             - name: DATABASE_URL
-              value: jdbc:mariadb://mariadb:3306/krampoline
+              value: jdbc:mariadb://mariadb:3306/halmang
           resources:
             requests:
               memory: 1Gi
-          readinessProbe:
-            httpGet:
-              path: /api/test
-              port: 8080
 ---
 apiVersion: v1
 kind: Service

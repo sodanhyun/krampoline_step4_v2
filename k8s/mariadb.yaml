@@ -23,7 +23,7 @@ spec:
             - name: MARIADB_ROOT_PASSWORD
               value: root
             - name: MARIADB_DATABASE
-              value: krampoline
+              value: halmang
             - name: MARIADB_DISABLE_UPGRADE_BACKUP
               value: '1'
           volumeMounts:
