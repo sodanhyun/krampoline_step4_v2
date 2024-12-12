@@ -15,7 +15,7 @@ spec:
       containers:
         - name: backend
           # 여러분의 backend image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_8c2a055a8995
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_55e8b3ed7e13
           # command: ["sleep", "50000000"]
           env:
             - name: TZ
