@@ -15,7 +15,7 @@ spec:
       containers:
         - name: frontend
           # 여러분의 frontend image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_f6f8c992af82
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_a339eca1b965
           # command: ["/bin/sleep", "5000000"]
           command: ["pnpm", "preview", "--port", "3000", "--host"]
 ---
